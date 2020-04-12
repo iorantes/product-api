@@ -142,7 +142,7 @@ public class UserServiceImpl implements UserService {
 				usua.setUserMail(usuaInfo.getMail());
 				usua.setUserNick(usuaInfo.getNick());
 				usua.setUserNomb(usuaInfo.getName());
-				usua.setUserPWD(usuaInfo.getPwd());
+				usua.setUserPWD(pwdEncrypt + BCrypt.hashpw(usuaInfo.getPwd(), BCrypt.gensalt(12)));
 				usua.setUserTel(usuaInfo.getTel());
 				usua.setUserActive(usuaInfo.getActive());
 				userRepo.save(usua);
@@ -178,7 +178,7 @@ public class UserServiceImpl implements UserService {
 
 				MimeMessageHelper helper = new MimeMessageHelper(msg, true);
 				helper.setTo(usua.getUserMail());
-				helper.setFrom("norepy@test.com");
+				helper.setFrom("irvinldt@gmail.com");
 
 				helper.setSubject("Reset contraseña");
 
@@ -216,7 +216,7 @@ public class UserServiceImpl implements UserService {
 				logger.info("Procediendo a colocar la nueva contraseña");
 				usua.setUserPWD(pwdEncrypt + BCrypt.hashpw(pwd, BCrypt.gensalt(12)));
 				userRepo.save(usua);
-				response = new ResponseDTO(ResponseDTO.CODE_OK, ResponseDTO.CODE_OK);
+				response = new ResponseDTO(ResponseDTO.CODE_OK, ResponseDTO.MSG_OK);
 			}
 			else {
 				logger.info("Tiempo limite para reinicio de contraseña sobrepasado");
