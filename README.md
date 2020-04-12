@@ -23,3 +23,8 @@ Actualmente la aplicacion se encuentra apuntando a una base de datos MS SQL Serv
 3. Ejecutar el comando "mvn clean package"
 4. Entrar en la carpeta generada target/
 5. Ejecutar el comando "java -jar products-0.0.1-SNAPSHOT.jar"
+
+
+## Proceso de autenticacion
+
+Para el proceso de autenticacion, en postman se debe elegir en la pestaña de authorization el tipo "Oauth 2.0" y rellenar los datos como en la imagen:
