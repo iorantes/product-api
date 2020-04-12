@@ -28,3 +28,5 @@ Actualmente la aplicacion se encuentra apuntando a una base de datos MS SQL Serv
 ## Proceso de autenticacion
 
 Para el proceso de autenticacion, en postman se debe elegir en la pestaña de authorization el tipo "Oauth 2.0" y rellenar los datos como en la imagen:
+
+![image](https://user-images.githubusercontent.com/5969482/79080564-41acaa80-7cd3-11ea-99a8-5feec51be863.png)
