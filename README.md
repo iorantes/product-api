@@ -7,7 +7,7 @@ https://textelaniin.azurewebsites.net/
 Carpeta que contiene la coleccion de postman (local, cloud) 
 https://drive.google.com/open?id=1RnFp8bgIpBmZYYIUYvc9s4pr5IsmzlLy
 
-El diagrama de base de datos y script de creacion de objetos e insercion de registros se encuentran en la raiz del repositorio.
+El  script de creacion de objetos e insercion de registros se encuentran en la raiz del repositorio.
 
 ## Publicacion Local
 ### Requisitos de Software
