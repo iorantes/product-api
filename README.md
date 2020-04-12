@@ -4,7 +4,7 @@ Servicio de administracion de productos y usuarios.
 El servicio puede probarse en la siguiente dirección
 https://textelaniin.azurewebsites.net/
 
-Carpeta que contiene la coleccion de postman (local, cloud) 
+Carpeta que contiene la coleccion de postman
 https://drive.google.com/open?id=1RnFp8bgIpBmZYYIUYvc9s4pr5IsmzlLy
 
 El  script de creacion de objetos e insercion de registros se encuentran en la raiz del repositorio.
