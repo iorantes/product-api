@@ -1,0 +1,17 @@
+com\test\products\model\service\impl\ProductServiceImpl.class
+com\test\products\model\dto\ResponseDTO.class
+com\test\products\model\dto\UserDTO.class
+com\test\products\ProductsApplication.class
+com\test\products\model\entity\User.class
+com\test\products\model\entity\AbstractBaseEntity.class
+com\test\products\controller\UserController.class
+com\test\products\model\repository\ProductRepository.class
+com\test\products\model\dto\AbstractResponseDTO.class
+com\test\products\model\service\impl\UserServiceImpl.class
+com\test\products\controller\ProductController.class
+com\test\products\model\service\UserService.class
+com\test\products\model\dto\ProductDTO.class
+com\test\products\model\service\ProductService.class
+com\test\products\model\repository\UserRepository.class
+com\test\products\model\entity\Product.class
+com\test\products\model\repository\AbstractBaseRepository.class
